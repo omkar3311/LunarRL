@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and Tensorboard
+logs/tensorboard/*
+!logs/tensorboard/.gitkeep
+
+# Checkpoints and models (keep directory structure)
+models/*/*.zip
+!models/**/.gitkeep
+experiments/*/*.json
+!experiments/**/.gitkeep
+
+# Results
+results/videos/*.mp4
+results/plots/*.png
+results/metrics/*.csv
+!results/**/.gitkeep
