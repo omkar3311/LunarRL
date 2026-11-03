@@ -1,0 +1,13 @@
+# Baseline Experiment Configuration: Pure Native LunarLander-v3 Reward
+experiment_name: baseline
+
+training:
+  total_timesteps: 300000
+  save_frequency: 25000
+  checkpoint_dir: models/baseline/checkpoints
+  model_dir: models/baseline
+  tensorboard_log: logs/tensorboard/baseline
+
+reward:
+  type: baseline
+  description: "Native environment reward without modification"
