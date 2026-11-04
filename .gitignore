@@ -56,3 +56,8 @@ results/videos/*.mp4
 results/plots/*.png
 results/metrics/*.csv
 !results/**/.gitkeep
+
+# Scratch scripts and personal tools
+envt.py
+test.py
+record.py
